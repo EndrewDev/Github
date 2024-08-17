@@ -2,8 +2,6 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import authenticate, login, logout
 
-# Create your views here.
-
 # cadastra
 def cadastrar_usuario(request):
     if request.method == 'POST':
